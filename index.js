@@ -1,3 +1,5 @@
+// First Class Function
+
 function receivesAFunction(callback) {
     callback();
   }
