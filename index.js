@@ -1,14 +1,18 @@
 // First Class Function
 
+// Callback func as argument and calling the callback func
 function receivesAFunction(callback) {
     callback();
   }
   
-  function returnsANamedFunction() {
+
+//  Func takes no argument and returns named function 
+function returnsANamedFunction() {
     return function functionReturned() {};
   }
-  
-  function returnsAnAnonymousFunction() {
+
+// Func takes no argument and returns anonymous func
+function returnsAnAnonymousFunction() {
     return function () {};
   }
   
